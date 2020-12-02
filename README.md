@@ -13,3 +13,5 @@ There are small modifications you need to do inorder to make the example work.
 - Learn docker from TechWorld with Nana: https://www.youtube.com/playlist?list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs & KodeKloud : https://www.youtube.com/watch?v=rmf04ylI2K0&t=751s
 - Learn kubernetes basics from kubernetes.io hands on tutorial to understand the basics.
 - For more detailed explanation and learning follow https://kube.academy/ where it starts from basics and also walks you through what is Cloud Native foundation and what are they trying to achieve to depolying kubernetes application with ease using helm.
+
+Setup Go and run go run main.go run /bin/bash as root user in Windows(wsl)/Linux/Mac
