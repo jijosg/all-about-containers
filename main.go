@@ -21,7 +21,7 @@ func main() {
 }
 
 func run() {
-	fmt.Printf("Running %v \n", os.Args[2:])
+	fmt.Printf("Running %v with pid %d\n", os.Args[2:],os.Getpid())
 
 	cmd := exec.Command("/proc/self/exe", append([]string{"child"}, os.Args[2:]...)...)
 	cmd.Stdin = os.Stdin
